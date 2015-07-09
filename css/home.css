@@ -1,0 +1,111 @@
+body {
+  background: url('../img/bg.png') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  float: left;
+  width: 100%;
+}
+
+.header img{
+  width: 100%;
+  height: 148px;
+  margin: 0px 0px 0px 0px;
+  background-size: 100% 100%;
+  padding: 0px 0;
+  float: left;
+}
+
+.logo{
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.logo img{
+  height: 170px;
+  margin: 0;
+}
+
+.main{
+  margin: 0 auto;
+  max-width: 910px;
+  width: 100%;
+}
+.nav-bar{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: -57px 0 0 0;
+}
+
+.nav-bar ul{
+  width: 100%;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar ul li{
+  display: inline-block;
+  background: url('../img/board.png') no-repeat;
+  padding: 78px 45px 12px 45px;
+  background-size: 132px;
+  text-align: center;
+  margin: 0 85px;
+}
+
+.nav-bar ul li a:link{
+  text-decoration: inherit;
+}
+
+.checkin-bar{
+  text-align: center;
+  width: 100%;
+}
+
+.checkin-bar img{
+  margin: 30px 0 0 0px;
+}
+
+.checkin-input{
+  position: absolute;
+  top: 323px;
+  width: 66.5%;
+  text-align: center;
+}
+
+.checkin-input ul{
+  width: 100%;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.checkin-input ul li{
+  display: inline-block;
+  text-align: center;
+}
+
+.checkin-input li input{
+  border: 0px;
+  border-radius: 15px;
+  padding: 6px 14px ;
+  font-size: 18px;
+  width: 180px;
+  outline-width: 0;
+}
+
+.checkin-input li input.middle:focus {
+    outline-width: 0;
+}
