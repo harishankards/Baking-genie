@@ -20,6 +20,7 @@ body {
   background-size: 100% 100%;
   padding: 0px 0;
   float: left;
+  position: absolute;
   z-index: 100;
 }
 
@@ -29,6 +30,7 @@ body {
   right: 0;
   left: 0;
   top: 0;
+  z-index: 101;
 }
 
 .logo img{

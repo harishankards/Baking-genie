@@ -4,11 +4,11 @@
   position: absolute;
   right: 0;
   left: 0;
-  top: 112px;
+  top: 100px;
+  z-index: -1;
 }
 .loading-logo img{
   height: 370px;
   margin: 0;
-  z-index: -10;
 
 }
